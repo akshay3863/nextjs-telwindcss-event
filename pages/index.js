@@ -69,7 +69,7 @@ const Index = () => {
                       });
                     }}
                     placeholder="Enter Title"
-                    class="px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                    className="px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                   />
                   <textarea
                     type="text"
@@ -82,7 +82,7 @@ const Index = () => {
                       });
                     }}
                     placeholder="Enter Description"
-                    class="px-3 mt-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                    className="px-3 mt-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                   />
                 </div>
 
@@ -134,7 +134,7 @@ const Index = () => {
                 >
                   <div className="font-bold text-sm text-black ">
                     {val.title}
-                    <span className="text-pr font-bold text-sm ml-1">></span>
+                    <span className="text-pr font-bold text-sm ml-1">{`>`}</span>
                   </div>
                   <div className="mr-5">
                     {moment(val.date).format("DD MMM YY")}
