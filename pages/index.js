@@ -2,7 +2,7 @@ import React from "react";
 import Calendar from "react-calendar";
 import moment from "moment";
 import { useRouter } from "next/router";
-const index = () => {
+const Index = () => {
   const router = useRouter();
   var defultData = {
     title: "",
@@ -152,4 +152,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
